@@ -33,3 +33,5 @@ mygo <- as.list(org.Mm.egGO2EG)
 mygo <- (mygo[!is.na(mygo)])
 t <- mget(names(mygo),GOTERM)
 names(mygo) <- as.character(lapply(t,Term))
+
+
