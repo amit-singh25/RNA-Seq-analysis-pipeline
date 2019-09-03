@@ -10,7 +10,7 @@ library(DESeq2)
 library(biomaRt)
 library(openxlsx)
 
-setwd("/Users/amit/Desktop/mouse_data/count")
+setwd("~/mouse_data/count")
 #meta<-read.delim("meta.txt",header=T,sep="\t")
 sampleFiles<- c("O1.htseq_count.txt",
                 "O2.htseq_count.txt",
