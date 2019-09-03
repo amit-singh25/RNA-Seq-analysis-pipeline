@@ -11,7 +11,6 @@
 
 #echo $PBS_JOBNAME
 #echo $PBS_JOBID
-
 name=$1
 bam=~/alignment
 out=~/stringte/ballgown
