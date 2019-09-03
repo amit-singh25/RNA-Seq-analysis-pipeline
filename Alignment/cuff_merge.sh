@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N htseq
+#PBS -N cuff_merge
 #PBS -j oe 
 
 ##PBS -l file=100GB
