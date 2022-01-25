@@ -427,4 +427,3 @@ write.csv(up,file="go_upregulated.csv")
 down<-(gene_set$less)
 write.csv(down,file="go_downregulated.csv")
 
-
