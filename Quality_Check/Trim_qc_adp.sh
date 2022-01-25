@@ -17,7 +17,6 @@ data=~/raw_data
 
 flexbar -r ${name}_R1.fastq.gz -p ${name}_R2.fastq.gz -t ${data}/${name}_trimmed.fastq  -n 20 -z GZ -m 30 -u 0  -q TAIL -qt 28 -a ${data}/adaptor.fa -qf sanger -j
 
-
 ###find adapator from the fasta_file or else take a illumina adaptor sequence
 ##bbmerge.sh in1=r1.fq in2=r2.fq outa=adapters.fa strict
 ###
