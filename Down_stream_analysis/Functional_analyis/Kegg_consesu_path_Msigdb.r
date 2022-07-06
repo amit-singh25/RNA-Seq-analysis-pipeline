@@ -30,7 +30,7 @@ out<-(gene_set_1$greater)
 write.csv(out,file="kegg_up_path.csv")
 write.xlsx(as.data.frame(out), "kegg_up_path.xlsx",asTable = TRUE,row.names=T)
 out<-(gene_set_1$less)
-write.csv(out,file="kegg_down_goterm_Gut_BvsJ.csv")
+write.csv(out,file="kegg_down_goterm.csv")
 write.xlsx(as.data.frame(out), "kegg_down_path.xlsx",asTable = TRUE,row.names=T)
 
 #######use other pathways database http://cpdb.molgen.mpg.de/
