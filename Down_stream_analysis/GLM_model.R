@@ -26,22 +26,10 @@ for( i in 1:nrow( data) ){
 #sig<- subset( approx,p.adj< 0.1)
 #sig<-sig[ order(sig[,"p.adj"] ), ]
 #save(sig,file="sig_12hr_adj.rda")
-
-
-
-
-
-
-
 #########
 sig<- subset( approx,pval< 0.1)
-
-
 #sig<-sig[ order( sig[,"pval"] ), ]
 #save(sig,file="sig_12hr_pval.rda")
-
-
-
 keep<-list()
 for (i in rownames(sig)){
   idx<-grep(i,anno$X.Gene.ID.)
