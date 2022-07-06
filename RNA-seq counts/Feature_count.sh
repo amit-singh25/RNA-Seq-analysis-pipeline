@@ -12,8 +12,6 @@
 #echo $PBS_JOBNAME
 #echo $PBS_JOBID
 
-
-
 name=$1
 gtf=~/genome/subread_genome/mouse
 out=~/subread
