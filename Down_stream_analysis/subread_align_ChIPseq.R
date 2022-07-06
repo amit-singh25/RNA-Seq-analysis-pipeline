@@ -28,11 +28,11 @@ binquire(rtracklayer)
 
 require(Rsubread)
 
-refpath <-  "/media/josephus/Elements/Chipseq_raw_data/Galaxy10-[mm9.fa].fasta"
-gtfpath <-  "/media/josephus/Elements/Chipseq_raw_data/Galaxy9-[mm9_UCSC_07_15_genes.gtf].gtf"
-indexdir <- "/media/josephus/Elements/genome/subread-index-mm9-galaxy"
-indir <- "/media/josephus/Elements/Chipseq_raw_data" # where are the fastq files?
-align.outdir <- "/media/josephus/Elements/alignment/Chipseq/subread" # where is output directory for mapping?
+refpath <-  "~/Chipseq_raw_data/mm9.fasta"
+gtfpath <-  "~/Chipseq_raw_data/mm9.gtf"
+indexdir <- "~/Chipseq_raw_data/genome/subread-index-mm9"
+indir <- "~/Chipseq_raw_data" # where are the fastq files?
+align.outdir <- "~/Chipseq_raw_data/alignment/Chipseq/subread" # where is output directory for mapping?
 
 # ensure existence of output directories
 dir.create(indexdir, recursive = TRUE)
