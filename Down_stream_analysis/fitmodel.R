@@ -48,8 +48,6 @@ df<-df[!duplicated(df), ]
 final<-cbind(final,df)
 
 ######for single plot 
-
-
 p<-data.frame (colData(fullData),t(counts(fullData, normalized=TRUE )["NCU00552", , drop=FALSE] ) ) %>%
   mutate ( tl = ifelse( time > 11, time - 11, 1e5 ) )  %>%
   gather ( "gene", "ncount", starts_with("NCU") )
