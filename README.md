@@ -216,9 +216,9 @@ Obtain Significance pathways using gage, gage uses t-test between two condition 
 gos <- gage(mymat,gsets = mygo,ref=ref,samp=samp,compare ="paired")
 gene_set<-sigGeneSet(gos,cutoff=0.001)
 up<-(gene_set$greater)
-write.csv(up,file="go_upregulated.csv")
+write.csv(up,file="go_up_regulated.csv")
 down<-(gene_set$less)
-write.csv(down,file="go_downregulated.csv")
+write.csv(down,file="go_down_regulated.csv")
 
 ########################################################################################################################
 only with differentially regulated gene based on fold change 
