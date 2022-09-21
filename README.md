@@ -190,5 +190,6 @@ cellranger count --chemistry=SC3Pv3 \
 --localcores=7 \
 --expect-cells=500
 --localmem=128
+Resources
 
-
+https://lmweber.org/OSTA-book/space-ranger-visium.html
