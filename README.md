@@ -193,3 +193,4 @@ cellranger count --chemistry=SC3Pv3 \
 Resources
 
 https://lmweber.org/OSTA-book/space-ranger-visium.html
+https://www.msi.umn.edu/sites/default/files/Single%20Cell%20Genomics%20Tutorial%20Handout.pdf
