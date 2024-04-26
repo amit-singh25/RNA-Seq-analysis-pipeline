@@ -191,7 +191,10 @@ cellranger count --chemistry=SC3Pv3 \
 --expect-cells=500
 --localmem=128
 
-## Checking RNA-Seq Strand option in gene count
+
+
+#### Checking RNA-Seq Strand option in gene count
+
 
 |                                      | forward (transcript)                 | reverse (rev comp of transcript)     |
 |:-------------------------------------|:-------------------------------------|:-------------------------------------|
